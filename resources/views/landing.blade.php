@@ -386,7 +386,7 @@
                                 </div>
                                 <div>
                                     <p class="text-xs text-gray-500 uppercase font-bold">Phone</p>
-                                    <p class="text-gray-900 dark:text-white font-medium">+91 98765 43210</p>
+                                    <p class="text-gray-900 dark:text-white font-medium">+91 8766890852</p>
                                 </div>
                             </div>
                             
@@ -396,7 +396,7 @@
                                 </div>
                                 <div>
                                     <p class="text-xs text-gray-500 uppercase font-bold">Email</p>
-                                    <p class="text-gray-900 dark:text-white font-medium">support@oneplaceagro.com</p>
+                                    <p class="text-gray-900 dark:text-white font-medium">support@oneplaceagro.in</p>
                                 </div>
                             </div>
                             
@@ -406,7 +406,7 @@
                                 </div>
                                 <div>
                                     <p class="text-xs text-gray-500 uppercase font-bold">Headquarters</p>
-                                    <p class="text-gray-900 dark:text-white font-medium">Nagpur, Maharashtra, India</p>
+                                    <p class="text-gray-900 dark:text-white font-medium">Warud ,Maharashtra, India</p>
                                 </div>
                             </div>
                         </div>
