@@ -1,0 +1,191 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+
+class UserSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $users = [
+            // Admin User
+            [
+                'name' => 'Admin User',
+                'email' => 'admin@oneplace.com',
+                'mobile' => '9999999999',
+                'password' => Hash::make('password'),
+                'role' => 'admin',
+                'location' => 'Nagpur',
+                'avatar' => 'images/avatars/admin.jpg',
+                'company_name' => null,
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // Farmers
+            [
+                'name' => 'Ramesh Patil',
+                'email' => 'ramesh.patil@example.com',
+                'mobile' => '9876543210',
+                'password' => Hash::make('password'),
+                'role' => 'farmer',
+                'location' => 'Katol, Nagpur',
+                'avatar' => 'images/avatars/farmer1.jpg',
+                'company_name' => null,
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Suresh Deshmukh',
+                'email' => 'suresh.deshmukh@example.com',
+                'mobile' => '9876543211',
+                'password' => Hash::make('password'),
+                'role' => 'farmer',
+                'location' => 'Kamptee, Nagpur',
+                'avatar' => 'images/avatars/farmer2.jpg',
+                'company_name' => null,
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Prakash Bhosale',
+                'email' => 'prakash.bhosale@example.com',
+                'mobile' => '9876543212',
+                'password' => Hash::make('password'),
+                'role' => 'farmer',
+                'location' => 'Hingna, Nagpur',
+                'avatar' => 'images/avatars/farmer3.jpg',
+                'company_name' => null,
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Vijay Kale',
+                'email' => 'vijay.kale@example.com',
+                'mobile' => '9876543213',
+                'password' => Hash::make('password'),
+                'role' => 'farmer',
+                'location' => 'Umred, Nagpur',
+                'avatar' => 'images/avatars/farmer4.jpg',
+                'company_name' => null,
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Ashok Wankhede',
+                'email' => 'ashok.wankhede@example.com',
+                'mobile' => '9876543214',
+                'password' => Hash::make('password'),
+                'role' => 'farmer',
+                'location' => 'Saoner, Nagpur',
+                'avatar' => 'images/avatars/farmer5.jpg',
+                'company_name' => null,
+                'is_verified' => false,
+                'email_verified_at' => null,
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+
+            // Traders
+            [
+                'name' => 'Rajesh Agarwal',
+                'email' => 'rajesh.agarwal@example.com',
+                'mobile' => '9123456780',
+                'password' => Hash::make('password'),
+                'role' => 'trader',
+                'location' => 'Sitabuldi, Nagpur',
+                'avatar' => 'images/avatars/trader1.jpg',
+                'company_name' => 'Agarwal Fruits Trading Co.',
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Mahesh Gupta',
+                'email' => 'mahesh.gupta@example.com',
+                'mobile' => '9123456781',
+                'password' => Hash::make('password'),
+                'role' => 'trader',
+                'location' => 'Dharampeth, Nagpur',
+                'avatar' => 'images/avatars/trader2.jpg',
+                'company_name' => 'Gupta Agro Exports',
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Sanjay Joshi',
+                'email' => 'sanjay.joshi@example.com',
+                'mobile' => '9123456782',
+                'password' => Hash::make('password'),
+                'role' => 'trader',
+                'location' => 'Ramdaspeth, Nagpur',
+                'avatar' => 'images/avatars/trader3.jpg',
+                'company_name' => 'Joshi Fresh Fruits',
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Amit Shah',
+                'email' => 'amit.shah@example.com',
+                'mobile' => '9123456783',
+                'password' => Hash::make('password'),
+                'role' => 'trader',
+                'location' => 'Gandhibagh, Nagpur',
+                'avatar' => 'images/avatars/trader4.jpg',
+                'company_name' => 'Shah Citrus Traders',
+                'is_verified' => true,
+                'email_verified_at' => now(),
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'name' => 'Deepak Mehta',
+                'email' => 'deepak.mehta@example.com',
+                'mobile' => '9123456784',
+                'password' => Hash::make('password'),
+                'role' => 'trader',
+                'location' => 'Mahal, Nagpur',
+                'avatar' => 'images/avatars/trader5.jpg',
+                'company_name' => 'Mehta Wholesale Market',
+                'is_verified' => false,
+                'email_verified_at' => null,
+                'remember_token' => null,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+        ];
+
+        DB::table('users')->insert($users);
+    }
+}

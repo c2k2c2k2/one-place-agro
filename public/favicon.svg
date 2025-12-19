@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Orange circle -->
+  <circle cx="50" cy="50" r="45" fill="#f2930d"/>
+  
+  <!-- Highlight to give 3D effect -->
+  <ellipse cx="35" cy="35" rx="15" ry="20" fill="#ffa726" opacity="0.6"/>
+  
+  <!-- Leaf -->
+  <path d="M 50 5 Q 55 10, 60 5 Q 58 15, 50 20 Q 42 15, 40 5 Q 45 10, 50 5 Z" fill="#5c8c45"/>
+  
+  <!-- Leaf vein -->
+  <line x1="50" y1="5" x2="50" y2="18" stroke="#4a7335" stroke-width="1"/>
+  
+  <!-- Texture dots -->
+  <circle cx="30" cy="55" r="1.5" fill="#d17d08" opacity="0.5"/>
+  <circle cx="45" cy="65" r="1.5" fill="#d17d08" opacity="0.5"/>
+  <circle cx="60" cy="50" r="1.5" fill="#d17d08" opacity="0.5"/>
+  <circle cx="55" cy="70" r="1.5" fill="#d17d08" opacity="0.5"/>
+  <circle cx="35" cy="70" r="1.5" fill="#d17d08" opacity="0.5"/>
+</svg>
